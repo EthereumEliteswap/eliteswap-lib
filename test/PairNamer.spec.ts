@@ -34,8 +34,8 @@ describe('PairNamer', () => {
     }
 
     it('concatenation', async () => {
-      expect(await pairName('DAI Stable Coin', 'MKR Token', 'Uniswap V2 Liquidity Provider Share for ', '.')).to.eq(
-        'Uniswap V2 Liquidity Provider Share for DAI Stable Coin:MKR Token.'
+      expect(await pairName('DAI Stable Coin', 'MKR Token', 'Eliteswap V2 Liquidity Provider Share for ', '.')).to.eq(
+        'Eliteswap V2 Liquidity Provider Share for DAI Stable Coin:MKR Token.'
       )
     })
   })

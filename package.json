@@ -1,18 +1,18 @@
 {
-  "name": "@uniswap/lib",
+  "name": "@eliteswap/lib",
   "version": "2.0.5",
-  "description": "📖 Solidity libraries that are shared across Uniswap contracts",
+  "description": "📖 Solidity libraries that are shared across Eliteswap contracts",
   "files": [
     "contracts",
     "!contracts/test"
   ],
-  "homepage": "https://uniswap.org",
+  "homepage": "https://eliteswap.org",
   "repository": {
-    "url": "https://github.com/Uniswap/uniswap-lib",
+    "url": "https://github.com/EthereumEliteswap/eliteswap-lib",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/Uniswap/uniswap-lib/issues"
+    "url": "https://github.com/EthereumEliteswap/eliteswap-lib/issues"
   },
   "engines": {
     "node": ">=10"

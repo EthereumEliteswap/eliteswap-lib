@@ -1,16 +1,21 @@
 {
   "name": "@eliteswap/lib",
   "version": "2.0.5",
-  "description": "📖 Solidity libraries that are shared across Eliteswap contracts",
+  "description": "📖 Solidity libraries that are shared across Elite Swap contracts",
   "files": [
     "contracts",
     "!contracts/test"
   ],
   "homepage": "https://eliteswap.org",
   "repository": {
-    "url": "https://github.com/EthereumEliteswap/eliteswap-lib",
+    "url": "git+https://github.com/EthereumEliteswap/eliteswap-lib.git",
     "type": "git"
   },
+  "keywords": [
+    "eliteswap",
+    "ethereum",
+    "lib"
+  ],
   "bugs": {
     "url": "https://github.com/EthereumEliteswap/eliteswap-lib/issues"
   },
@@ -39,5 +44,10 @@
     "test": "mocha",
     "prepublishOnly": "yarn test"
   },
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
 }

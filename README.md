@@ -5,7 +5,7 @@
 [![Lint](https://github.com/EthereumEliteswap/eliteswap-lib/workflows/Lint/badge.svg)](https://github.com/EthereumEliteswap/eliteswap-lib/actions?query=workflow%3ALint)
 [![npm](https://img.shields.io/npm/v/@eliteswap/lib)](https://unpkg.com/@eliteswap/lib@latest/)
 
-Solidity libraries that are shared across Eliteswap contracts. These libraries are focused on safety and gas efficiency.
+Solidity libraries that are shared across Elite Swap contracts. These libraries are focused on safety and gas efficiency.
 
 ## Install
 
